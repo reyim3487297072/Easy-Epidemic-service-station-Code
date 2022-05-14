@@ -1,0 +1,140 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+html,body{
+	height: 100%;
+	background-image: linear-gradient(to right,#4facfe 0%,  #00f2fe 100%);
+}
+.maindiv{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+.top{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content:flex-end;
+	align-items: center;s
+}
+.bt{
+	width: 100%;
+	height: 100px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center|flex-start;
+	align-items: center;
+	box-shadow: 0 10px 30px rgba(20,30,50,0.2);
+}
+.bt li:hover{
+		font-size: 18px;
+		color: black;
+		transition-duration: 1s;
+}
+.ul{
+	
+}
+.li{
+	list-style: none;
+	padding: 0;
+	color: white;
+	font-weight: 600;
+	margin-right: 15px;
+	float: left;
+	display: block;
+}
+.tol{
+	width: 100%;
+	height: 70px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center|flex-start;
+	align-items: center;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+.tol div:hover{
+	width: 135px;
+	height: 60px;
+	transition-duration: 1s;
+}
+.tol0{
+	width: 100%;
+	height: 110px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.tol0 div{
+	width: 230px;
+	height: 100%;
+	background-color: white;
+	border-radius: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 15px;
+	box-shadow: 0 1px 10px rgba(30,40,50,0.3);
+}
+.tol0 div:hover{
+	width: 220px;
+	height: 90%;
+	transition-duration: 1s;
+}
+.tol1{
+	width: 100%;
+	height: 250px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.tol1 div{
+	width: 230px;
+	height: 100%;
+	background-color: white;
+	border-radius: 20px;
+	display: table;
+	text-align: center;
+	margin-left: 15px;
+	box-shadow: 0 1px 10px rgba(30,40,50,0.3);
+}
+.tol1 div:hover{
+	width: 220px;
+	height: 90%;
+	transition-duration: 1s;
+}
+.fanhui{
+	width: 125px;
+	height: 55px;
+	border-radius: 30px;
+	box-shadow:  0 1px 15px  rgba(40,50,60,0.2);
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 30px;
+}
+
+.tol2{
+	width: 100%;
+	height: 150px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.tol2 div{
+	width: 100%;
+	height: 100%;
+	display: table;
+	text-align: center;
+	box-shadow: 0 1px 10px rgba(30,40,50,0.3);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

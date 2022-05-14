@@ -1,0 +1,283 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+html,body{
+	height: 100%;
+		background-image: linear-gradient(to right,#4facfe 0%,  #00f2fe 100%);
+}
+.maindiv{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+.bt{
+	width: 100%;
+	height: 100px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center|flex-start;
+	align-items: center;
+	box-shadow: 0 10px 30px rgba(20,30,50,0.2);
+}
+.fanhui:hover{
+	width: 135px;
+	height: 65px;
+	border-radius: 10px;
+	box-shadow:  0 1px 15px  rgba(40,50,60,0.1);
+	transition-duration: 1s;
+}
+.reg:hover{
+	width: 135px;
+	height: 65px;
+	border-radius: 10px;
+	box-shadow:  0 1px 15px  rgba(40,50,60,0.1);
+	transition-duration: 1s;
+}
+.top{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content:flex-end;
+	align-items: center;s
+}
+
+.tp{
+	width: 100%;
+	height: 350px;
+	margin: 0 auto;
+	display: flex;
+	margin-top: 80px;
+	justify-content: center;
+	align-items: center;
+}
+.js{
+	width: 100%;
+	height: 60px;
+	margin: 0 auto;
+	justify-content: center;
+	align-items: center;
+	}
+.but{
+	width: 100%;
+	height: 120px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 10px;
+}
+.but1{
+	width: 140px;
+	height: 60px;
+	box-shadow: 0 2px 25px rgba(50,30,80,0.2);
+	border-radius: 35px;
+	color: #dbe0e3;
+	-webkit-animation-name: But;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-iteration-count: 1;
+}
+.but1:hover{
+	width: 150px;
+	height: 70px;
+	transition-duration: 1s;
+}
+@-webkit-keyframes 'But'{
+	from{
+		width: 150px;
+		height: 70px;
+	}
+	to{
+		width: 140px;
+		height: 60px;
+	}
+}
+
+.gy{
+	width: 100%;
+	height: -1;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center|end;
+}
+.fanhui{
+	width: 125px;
+	height: 55px;
+	border-radius: 10px;
+	box-shadow:  0 1px 15px  rgba(40,50,60,0.2);
+	margin: 0 auto;
+	display: flex;
+	justify-content: center|flex-start;
+	align-items: center;
+	margin-left: 30px;
+}
+.reg{
+	width: 130px;
+	height: 55px;
+	border-radius: 10px;
+	box-shadow:  0 1px 15px  rgba(40,50,60,0.2);
+	margin: 0 auto;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin-right: 30px;
+}
+.cen{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.login{
+		width: 600px;
+		height: 400px;
+		box-shadow:0 2px 15px rgba(80,150.90,0.1);
+		display: flex;
+		justify-content: flex-start;
+		margin: 0 auto;
+		align-items: center;
+		background-color: #b3ffffff;
+		border-radius: 30px;
+}
+.loginreg{
+		width: 600px;
+		height: 400px;
+		box-shadow:0 2px 15px rgba(80,150.90,0.1);
+		display: flex;
+		justify-content: flex-start;
+		margin: 0 auto;
+		align-items: center;
+		border: 2px solid #b3ffffff;
+		border-radius: 30px;
+}
+.logins{
+	width: -1;
+	height: 100%;
+	margin: 0 auto;
+	display: flex
+	justify-content: center;
+	align-items: center;
+	margin-left: 35px;
+}
+.regs{
+	width: -1;
+	height: 100%;
+	margin: 0 auto;
+	display: flex
+	justify-content: center;
+	align-items: center;
+	margin-left: 0px;
+}
+.input{
+	width: 250px;
+	height: 55px;
+	border-radius:35px;
+	box-shadow:  0 1px 15px  rgba(40,50,60,0.1);
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+}
+.input1{
+	width: 250px;
+	height: 55px;
+	border-radius:35px;
+	box-shadow:  0 1px 15px  rgba(40,50,60,0.1);
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 80px;
+}
+.input2{
+	width: 250px;
+	height: 55px;
+	border-radius: 35px;
+	box-shadow:  0 1px 15px  rgba(40,50,60,0.1);
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 15px;
+}
+.loginbut{
+	width: 180px;
+	height: 55px;
+	box-shadow: 0 1px 10px rgba(10,20,30,0.1);
+	border-radius: 35px;
+	margin: 0 auto;
+	display: flex;
+   justify-content: center;
+	   align-items: center;
+		   margin-top: 30px;
+}
+.loginbut:hover{
+	width: 160px;
+	height: 60px;
+	transition-duration: 1s;
+}
+.regs div:hover{
+		width: 165px;
+		height: 60px;
+		box-shadow:  0 1px 15px  rgba(40,50,60,0.2);
+		transition-duration: 1s;
+}
+.gys{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+   margin: 0 auto;
+	
+}
+.gys div:hover{
+	width: 100px;
+	height: 100px;
+	transition-duration: 1s;
+	box-shadow: 0 1px 35px rgba(10,20,30,0.1);
+}
+.gys p:hover{
+	color: #FFFFFF;
+	transition-duration: 1s;
+}
+.icon{
+	width: 80px;
+	height: 80px;
+	border-radius: 10px;
+	box-shadow: 0 1px 10px rgba(10,20,30,0.3);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.jsp:hover{
+	color: black;
+	transition-duration: 1s;
+}
+.bt p:hover{
+	color: black;
+	transition-duration: 1s;
+}
+
+.single{
+	text-decoration: none;
+}
+.single p {
+	font-size: 11px;
+	font-weight: bold;
+	letter-spacing: 0;
+	margin-bottom: 0px;
+	color: #dbe0e3;
+}
+.bq :hover{
+	color: white;
+	transition-duration: 1s;
+}
